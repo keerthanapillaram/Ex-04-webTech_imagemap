@@ -35,7 +35,7 @@ Execute the program and see the result
     </head>
     <body>
         <h1 align="center">
-            <font color="red"><b>Thirupathi</b></font>
+            <font color="red"><b>Tirupati</b></font>
         </h1>
         <h2 align="center">
             <font color="violet"><b>P.Keerthana 23011895</b></font>
