@@ -26,7 +26,9 @@ Execute the program and see the result
 
 
 # Code:
-![Uploading 1.png…]()
+![1](https://github.com/keerthanapillaram/Ex-04-webTech_imagemap/assets/145743072/e99db4c6-c3b2-44fc-ad72-e8fb48f0b368)
+
+
 
 
 <html>
@@ -43,7 +45,7 @@ Execute the program and see the result
             <font color="violet"><b>P.Keerthana 23011895</b></font>
         </h2>
         <center>
-            <img src= usemap="#image_map">
+            <img src= "map.png" usemap="#image_map">
 <map name="image_map">
   <area alt="svmedical" title="svmedical" href="svm.html" coords="746,488,112" shape="circle">
   <area alt="svu" title="svu" href="svu.html" coords="353,868,615,1058" shape="rect">
