@@ -35,13 +35,13 @@ Execute the program and see the result
     </head>
     <body>
         <h1 align="center">
-            <font color="red"><b>Tirupati</b></font>
+            <font color="red"><b>Tirupathi</b></font>
         </h1>
         <h2 align="center">
             <font color="violet"><b>P.Keerthana 23011895</b></font>
         </h2>
         <center>
-             <img src="map.png" usemap="#image_map">
+            <img src="map.png" usemap="#image_map">
 <map name="image_map">
   <area alt="svmedical" title="svmedical" href="svm.html" coords="746,488,112" shape="circle">
   <area alt="svu" title="svu" href="svu.html" coords="353,868,615,1058" shape="rect">
@@ -49,7 +49,6 @@ Execute the program and see the result
   <area alt="zoo" title="zoo" href="zoo.html" coords="213,454,120" shape="circle">
   <area alt="both" title="both" href="both.html" coords="1212,679,1401,772" shape="rect">
 </map>
-
         </center>
     </body>
 </html>
