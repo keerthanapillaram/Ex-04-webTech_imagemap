@@ -152,12 +152,13 @@ both.html
 
 # Output:
 
-![1 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/3ed931a0-ea25-4bda-9b22-d24424e2f50e)
-![2 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/28c53a01-0253-45a2-bf38-e00accbec5cd)
+![1](https://github.com/keerthanapillaram/Ex-04-webTech_imagemap/assets/145743072/8fb8119d-d6ae-498a-9bf8-9464c797b5e8)
+![2](https://github.com/keerthanapillaram/Ex-04-webTech_imagemap/assets/145743072/401776ea-1e74-42a7-99da-9e0b02051053)
 ![3 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/5d96ac71-875d-4acb-8e13-a09439ec90ad)
 ![4 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/e2c0a32a-9440-471f-a797-9afba0565e63)
-![5 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/19c67926-65df-490d-b546-7fdea3ae6006)
+![5](https://github.com/keerthanapillaram/Ex-04-webTech_imagemap/assets/145743072/a835ace1-37e2-48a9-8906-ed79ee5c37a3)
 ![6 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/737e225a-9bd7-4612-a6b5-b109dfd02164)
 
 
 # Result:
+The Output was verified successfully.
