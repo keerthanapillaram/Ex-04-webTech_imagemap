@@ -152,12 +152,13 @@ both.html
 
 # Output:
 
-![1 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/3ed931a0-ea25-4bda-9b22-d24424e2f50e)
-![2 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/28c53a01-0253-45a2-bf38-e00accbec5cd)
-![3 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/5d96ac71-875d-4acb-8e13-a09439ec90ad)
-![4 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/e2c0a32a-9440-471f-a797-9afba0565e63)
-![5 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/19c67926-65df-490d-b546-7fdea3ae6006)
-![6 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/737e225a-9bd7-4612-a6b5-b109dfd02164)
+![1](https://github.com/keerthanapillaram/Ex-04-webTech_imagemap/assets/145743072/2d4f9534-4717-457b-837e-701d27fcb9aa)
+![2](https://github.com/keerthanapillaram/Ex-04-webTech_imagemap/assets/145743072/1ab8a469-ccce-42f9-9ad8-b44b091c1ce0)
+![3](https://github.com/keerthanapillaram/Ex-04-webTech_imagemap/assets/145743072/72e8b121-4ad2-41eb-a7d5-c409df3c473d)
+![4](https://github.com/keerthanapillaram/Ex-04-webTech_imagemap/assets/145743072/01fe5b97-1b19-47f7-9f7a-cbfbbe136439)
+![5](https://github.com/keerthanapillaram/Ex-04-webTech_imagemap/assets/145743072/6fef9d38-c5e9-4b4f-aa97-1d87ad3c865f)
+![6](https://github.com/keerthanapillaram/Ex-04-webTech_imagemap/assets/145743072/864a6170-6df3-4d96-a007-2b760b17fdac)
 
 
 # Result:
+The output was verified successfully.
