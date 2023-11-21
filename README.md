@@ -41,7 +41,7 @@ Execute the program and see the result
             <font color="violet"><b>P.Keerthana 23011895</b></font>
         </h2>
         <center>
-            <img src= "C:\Users\admin\Desktop\map.png" usemap="#image_map">
+            <img src= C:\Users\admin\Desktop\map.png usemap="#image_map">
 <map name="image_map">
   <area alt="svmedical" title="svmedical" href="svm.html" coords="746,488,112" shape="circle">
   <area alt="svu" title="svu" href="svu.html" coords="353,868,615,1058" shape="rect">
