@@ -1,125 +1,163 @@
-# Ex-04-Django-Models
-# STUDENT DETAILS :
-Name : P.Keerthana
+# Places Around Me
+# Name:Jeshwanth kumar
+# Ref:23002519
+# Aim:
+To develop a website to display details about the places around my house.
+
+# Design Steps:
+## Step 1
+Create a django admin interface
+
+## Step 2
+Download yor city from google
+
+## Step 3
+Using map create a html file
+
+## Step 4
+Create clickable regions using area tag
+
+## Step 5
+Write html programs and run it 
+
+## Step 6
+Execute the program and see the result
 
 
-Department : AIML
 
-Reference No : 23011895
-# AIM : 
-Display user's details using template-view-model in django framework.
-# STEP 1 :
-Create django project and app using the following commands:
+# Code:
 
-Django-admin startproject mymodels
-
-Python manage.py startapp myapp
-# STEP 2 :
-
-create a user_profile models in model.py
-from django.db import models
-from django.contrib.auth.models import User
-
-class UserProfile(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
-    first_name = models.CharField(max_length=100)
-    last_name = models.CharField(max_length=100)
-    email = models.EmailField()
-
-# STEP 3 :
-Add the models in the admin interface using the code in admin.py
-
-from django.contrib import admin
-
-# Register your models here.
-from .models import UserProfile
-
-admin.site.register(UserProfile)
-
-# STEP 4 :
-Write the function based view to render the data from the models to the template in view.py
-
-from django.shortcuts import render
-from django.contrib.auth.decorators import login_required
-from .models import UserProfile
-
-@login_required
-def user_profile(request):
-    user = request.user
-    user_profile, created = UserProfile.objects.get_or_create(user=user)
-
-    context = {
-        "user": user,
-        "user_profile": user_profile,
-        'firstname': user_profile.user.first_name,  # Access first name through the related User model
-        "lastname": user_profile.user.last_name,  # Access last name through the related User model
-    }
-    return render(request, 'myapp/user_profiles.html', context)
-
- # STEP 5 :
-Setup the url path for the templates using urls.py
-
-"""mymodels URL Configuration
-
-The urlpatterns list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/4.1/topics/http/urls/
-Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
-"""
-from django.contrib import admin
-from django.urls import path
-from myapp import views
-from myapp.views import user_profile
-
-urlpatterns = [
-    path("admin/", admin.site.urls),
-    path('profile/', views.user_profile, name='user_profile'),
-]
-
-# STEP 6:
-In settings.py file add the app created.
-
-Now do the migrations process to initiate and save the models
-
-Python mange.py makemigrations
-Python manage.py migrate
-
-Create a template as user_profiles.html
-
-<!DOCTYPE html>
 <html>
-<head>
-    <title>User Profile</title>
-</head>
-<body>
-    <h1>User Profile</h1>
-    <p><strong>Username:</strong> {{ user.username }}</p>
-    <p><strong>First name:</strong> {{ firstname }}</p>
-    <p><strong>Last name:</strong> {{ lastname }}</p>
-    <p><strong>Email :</strong> {{ user.email }}</p>
-    <p><strong>Custom Profile Data:</strong> {{ user_profile.custom_field }}</p>
-</body>
+    <head>
+        <title>
+            MY CITY
+        </title>
+    </head>
+    <body>
+        <h1 align="center">
+            <font color="red"><b>Thirupathi</b></font>
+        </h1>
+        <h2 align="center">
+            <font color="violet"><b>Jeshwanth kumar 23002519</b></font>
+        </h2>
+        <center>
+            <img src="map.png" usemap="#image_map">
+<map name="image_map">
+  <area alt="svmedical" title="svmedical" href="svm.html" coords="746,488,112" shape="circle">
+  <area alt="svu" title="svu" href="svu.html" coords="353,868,615,1058" shape="rect">
+  <area alt="central" title="central" href="central.html" coords="1025,630,1167,669" shape="rect">
+  <area alt="zoo" title="zoo" href="zoo.html" coords="213,454,120" shape="circle">
+  <area alt="both" title="both" href="both.html" coords="1212,679,1401,772" shape="rect">
+</map>
+
+        </center>
+    </body>
 </html>
 
-# STEP 7:
-Run the program using the command
+svm.html
+<html>
+    <head>
+        <title>
+            SV Medical college
 
-Python manage.py runserver 8000
+        </title>
+        <img align="center">
+        <img src="https://th.bing.com/th/id/OIP.C5ypXCSxGBJy2psdAB6CfQHaD-?rs=1&pid=ImgDetMain" alt="svm">
+        <p>
+            Sri Venkateswara Institute of Medical Sciences, a tertiary care referral centre and a jewel
+             in the crown of the Tirumala Tirupati Devasthanams, Tirupati, has established itself as a Medical University
+              of repute with the blessings of Lord Venkateswara.  SVIMS hospital has acquired the state-of-art equipment with well recognised faculty & best practices,
+               svims offers evidence based patient centred care as well as population health taken active in population health management.
+        </p>
+    </head>
+</html>
 
-In the admin/ page you can view the models created
+svu.html
 
-And  in the user_profile template page you can see the profile page of the user.
+<html>
+    <head>
+        <title>
+            SV University
 
-# OUTPUT : 
-![image](https://github.com/Jeshwanthkumarpayyavula/ODD2023-WT-Ex-04-Django-Models/assets/145742402/f76595ea-44d8-4353-bbb7-9424d5c4d361)
+        </title>
+        <img align="center">
+        <img src="https://www.vidyabharati.in/wp-content/uploads/2022/02/b-ed-admissions-sri-venkateswara-university.png " alt="svu">
+        <p>
+            The university was founded in 1954 by the then Chief minister of Andhra Pradesh, 
+            Tanguturi Prakasam Pantulu and Siram Govindarajulu Naidu as its founder vice-chancellor. The university campus covers
+             a large area on land leased by Tirumala Tirupati Devasthanams.
+        </p>
+    </head>
+</html>
 
-# RESULT : 
-User Profile displayed successfully using django framework.
+central.html
+
+<html>
+    <head>
+        <title>
+            CENTRAL PARK
+
+        </title>
+        <img align="center">
+        <img src="https://i.ytimg.com/vi/miiOqZ1xjig/maxresdefault.jpg" alt="central">
+        <p>
+            This Park is well designed and beautifully maintained by the Tirupati Municipal development corporation,
+             and it is located in-between Kapilatheertham and RTC bus terminus.  Here one can enjoy the gentle, cool breeze and the atmosphere
+              in the evenings at the Municipal Park. There is a water fountain in the entrance with multiple colors which give a remarkable experience to all,
+             Lord Shiva and Ganga at the center is the main attraction of the park. Children’s will enjoy the environment. the park will be opened only in the evening from 4.00 pm to 9.00 pm in all days. 
+        </p>
+    </head>
+</html>
+
+zoo.html
+
+<html>
+    <head>
+        <title>
+            Zoo
+
+        </title>
+        <img align="center">
+        <img src="https://i.ytimg.com/vi/pytIgM_TAak/maxresdefault.jpg" alt="zoo">
+        <p>
+            Sri Venkateswara Zoological Park, located on the foothills of Seshachalam
+             hills in Tirupati,Andhra Pradesh.It is the largest zoological park in Asia interms of area.Established 
+             in the year 1987,the zoo spreads over an area of 1254 hectares in Tirupati Reserve Forest Extn.The park is named after Lord Venkateswara ,the presiding deity of Tirumala
+              Venkateswara temple.Developed on mythological theme,the park highlights the role of animals in mythology and spreads the message of conservation of nature with mythological impetus.
+            Here the animals are exhibited in wider 
+              and natural enclosures resembling their natural habitats..
+        </p>
+    </head>
+</html>
+
+both.html
+
+<html>
+    <head>
+        <title>
+            Both hospital
+
+        </title>
+        <img align="center">
+        <img src="https://d2t60rd7vcv5ly.cloudfront.net/latest_screenshots/1488790249_login_screen.jpg" alt="both">
+        <p>
+            Both Hospital is a 60 bedded hospital at the prominent place in Tirupati.Both Hospital is fully equipped
+             with advance technology and medical services are extended round the clock. They are happy to mention that because
+              of their qualitative and economic services their  hospital stood as the best modern hospital in the entire Rayalaseema. 
+        </p>
+    </head>
+</html>
+
+
+
+# Output:
+
+![1 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/3ed931a0-ea25-4bda-9b22-d24424e2f50e)
+![2 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/28c53a01-0253-45a2-bf38-e00accbec5cd)
+![3 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/5d96ac71-875d-4acb-8e13-a09439ec90ad)
+![4 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/e2c0a32a-9440-471f-a797-9afba0565e63)
+![5 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/19c67926-65df-490d-b546-7fdea3ae6006)
+![6 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/737e225a-9bd7-4612-a6b5-b109dfd02164)
+
+
+# Result:
