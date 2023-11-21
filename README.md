@@ -1,6 +1,6 @@
 # Places Around Me
-# Name:Jeshwanth kumar
-# Ref:23002519
+# Name: P.Keerthana
+# Ref:23011895
 # Aim:
 To develop a website to display details about the places around my house.
 
@@ -35,10 +35,10 @@ Execute the program and see the result
     </head>
     <body>
         <h1 align="center">
-            <font color="red"><b>Thirupathi</b></font>
+            <font color="red"><b>Tirupati</b></font>
         </h1>
         <h2 align="center">
-            <font color="violet"><b>Jeshwanth kumar 23002519</b></font>
+            <font color="violet"><b>P.Keerthana 23011895</b></font>
         </h2>
         <center>
             <img src="map.png" usemap="#image_map">
