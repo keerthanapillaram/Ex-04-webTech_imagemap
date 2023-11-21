@@ -1,6 +1,6 @@
 # Places Around Me
-# Name: P.Keerthana
-# Ref: 23011895
+# Name:Jeshwanth kumar
+# Ref:23002519
 # Aim:
 To develop a website to display details about the places around my house.
 
@@ -152,12 +152,12 @@ both.html
 
 # Output:
 
-![1 png](https://github.com/keerthana/Ex-04-webTech_imagemap/assets/145742402/3ed931a0-ea25-4bda-9b22-d24424e2f50e)
-![2 png](https://github.com/keerthana/Ex-04-webTech_imagemap/assets/145742402/28c53a01-0253-45a2-bf38-e00accbec5cd)
-![3 png](https://github.com/keerthana/Ex-04-webTech_imagemap/assets/145742402/5d96ac71-875d-4acb-8e13-a09439ec90ad)
-![4 png](https://github.com/keerthana/Ex-04-webTech_imagemap/assets/145742402/e2c0a32a-9440-471f-a797-9afba0565e63)
-![5 png](https://github.com/keerthana/Ex-04-webTech_imagemap/assets/145742402/19c67926-65df-490d-b546-7fdea3ae6006)
-![6 png](https://github.com/keerthana/Ex-04-webTech_imagemap/assets/145742402/737e225a-9bd7-4612-a6b5-b109dfd02164)
+![1 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/3ed931a0-ea25-4bda-9b22-d24424e2f50e)
+![2 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/28c53a01-0253-45a2-bf38-e00accbec5cd)
+![3 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/5d96ac71-875d-4acb-8e13-a09439ec90ad)
+![4 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/e2c0a32a-9440-471f-a797-9afba0565e63)
+![5 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/19c67926-65df-490d-b546-7fdea3ae6006)
+![6 png](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/737e225a-9bd7-4612-a6b5-b109dfd02164)
 
 
 # Result:
