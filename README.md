@@ -133,7 +133,7 @@ Push it to 'README.md' and push it to the repository.
 
 ![Alt text](ground.png)
 
-![Alt text](park.png)
+![](park.png)
 
 ![Alt text](sport.png)
 
