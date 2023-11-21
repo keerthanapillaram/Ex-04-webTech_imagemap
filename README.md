@@ -1,6 +1,6 @@
 # Places Around Me
-# Name:P.Keerthana
-# Ref:23011895
+# Name: P.Keerthana
+# Ref: 23011895
 # Aim:
 To develop a website to display details about the places around my house.
 
