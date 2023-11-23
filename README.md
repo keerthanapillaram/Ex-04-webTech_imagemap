@@ -26,6 +26,8 @@ Execute the program and see the result
 
 
 # Code:
+![image](https://github.com/Jeshwanthkumarpayyavula/Ex-04-webTech_imagemap/assets/145742402/3efd7076-05e7-4e42-83f2-ce3a7ba2ea5e)
+
 ```
 <html>
     <head>
